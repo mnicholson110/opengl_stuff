@@ -7,3 +7,5 @@ run:
 
 clean:
 	rm -rf ./bin
+
+test: clean build run
