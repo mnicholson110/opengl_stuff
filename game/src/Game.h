@@ -14,7 +14,6 @@ public:
 
     void CreateVertexArray();
     void CreateShader();
-    bool IsRunning() const { return m_IsRunning; }
 
 private:
     void ProcessInput();

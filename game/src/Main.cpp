@@ -3,9 +3,8 @@
 int main()
 {
     Game game;
-    game.Init();
 
-    while (game.IsRunning())
+    if (game.Init())
     {
         game.RunLoop();
     }
